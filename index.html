@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucles e iteraciones</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Listado de Albumes</h1>
+    </header>
+    <main>
+      <form action="">
+        <label for="textoUser">Usuario</label>
+
+        <select name="Usuario" id="comboUsuario"></select>
+        <br />
+        <button id="botonBuscar">Buscar</button>
+      </form>
+      <br />
+      <br />
+      <table>
+        <tr>
+          <th><a href="" name="◻" id="◻">◻</a></th>
+          <th><a href="" name="Id" id="Id">Id</a></th>
+          <th><a href="" name="UserId" id="UserId">User Id</a></th>
+          <th><a href="" name="Titulo" id="Titulo">Titulo</a></th>
+        </tr>
+        <tbody id="contenidoTabla"></tbody>
+      </table>
+    </main>
+    <script src="index.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
+  </body>
+</html>
